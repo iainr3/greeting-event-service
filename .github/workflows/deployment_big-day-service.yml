@@ -30,4 +30,4 @@ jobs:
         app-name: 'big-day-service'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_917e2026b45a4424bd1e10becfdfa25a }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/target/serving-web-content-*.jar'
